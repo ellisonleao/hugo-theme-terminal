@@ -22,6 +22,8 @@
     {{ partial "footer.html" . }}
   {{ end }}
 </div>
-
+{{ if $.Site.Params.GoatCounter }}
+{{ partial "goatcounter.html" . }}
+{{ end }}
 </body>
 </html>
