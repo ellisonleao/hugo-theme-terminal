@@ -1,3 +1,3 @@
 [readingTime]
-one = "1 minuto"
-other = "{{ .Count }} minutos"
+one = "Tempo de leitura :: 1 minuto"
+other = "Tempo de leitura :: {{ .Count }} minutos"
