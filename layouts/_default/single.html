@@ -13,6 +13,11 @@
       {{ . }}
     </span>
     {{ end }}
+    {{ if .Params.ReadingTime }}
+    <span class="post-author">::
+        {{ i18n "readingTime" .ReadingTime }}
+    </span>
+    {{ end }}
   </div>
 
   {{ if .Params.tags }}
